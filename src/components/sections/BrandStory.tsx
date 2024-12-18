@@ -1,7 +1,7 @@
 export const BrandStory = () => {
     return (
       <section className="py-16 px-4 md:px-8 bg-[#faf1eb]">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-2 gap-8 items-center">
             <div className="relative">
               <img 

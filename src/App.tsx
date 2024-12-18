@@ -10,6 +10,7 @@ import { FAQSection } from './components/sections/FAQSection';
 import { Footer } from './components/Footer'; 
 import WhatsAppIcon from './components/WhatsAppIcon';
 import RewardsButton from './components/RewardsButton';
+import { Transformations } from './components/sections/Transformations';
 
 function App() {
   return (
@@ -22,7 +23,8 @@ function App() {
       <DIYExtensions/>
       <BrandStory />
 
-      <HairSolutions/>
+      <HairSolutions/> 
+      <Transformations/>
       <FAQSection/>
    
       <Footer/> 

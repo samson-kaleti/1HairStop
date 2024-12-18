@@ -13,7 +13,7 @@ export const Footer = () => {
   
     return (
       <footer className="bg-[#f8f5f2] pt-16 pb-8 px-4 md:px-8">
-        <div className="max-w-7xl mx-auto">
+        <div className="max-w-8xl mx-auto">
           {/* Main Footer Content */}
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-12">
             {/* Company Info */}
@@ -50,7 +50,7 @@ export const Footer = () => {
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
                   placeholder="Enter email here"
-                  className="flex-1 px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-gray-200"
+                  className="  px-4 py-2 border border-gray-300 bg-transparent rounded-md focus:outline-none focus:ring-2 focus:ring-gray-200"
                 />
                 <button
                   type="submit"
