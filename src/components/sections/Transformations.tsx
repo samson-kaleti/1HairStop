@@ -35,17 +35,17 @@ export function Transformations() {
       <div className="max-w-8xl mx-auto px-4">
         {/* Section Title */}
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-serif mb-4">
+          <h2 className="text-3xl md:text-4xl  mb-4 font-gill">
             Real Life Hair Transformations With 1 Hair Stop Human Hair Extensions
           </h2>
-          <p className="text-gray-600 max-w-3xl mx-auto">
+          <p className="text-gray-600 max-w-3xl mx-auto font-gill">
             Take a peek at the journeys of our incredible customers who have found a renewed sense
             of self with the help of our hair extension solutions.
           </p>
         </div>
 
         {/* Desktop Grid (visible on md and above) */}
-        <div className="hidden md:grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-4">
+        <div className="hidden md:grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-4 font-gill">
           {transformations.map((transform, index) => (
             <div key={index} className="relative">
               <img

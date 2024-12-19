@@ -11,19 +11,19 @@ export function StudioSection() {
               title="THE HUMAN HAIR EXTENSIONS STUDIO"
               className="mb-6"
             />
-            <span className="text-sm uppercase tracking-wider text-[#1A1B188C]">
+            <span className="text-sm uppercase tracking-wider text-[#1A1B188C] font-gill">
               JUBILEE HILLS, HYDERABAD
             </span>
           </div>
 
-          <p className="text-gray-700 leading-relaxed">
+          <p className="text-gray-700 leading-relaxed font-gill text-xl   ">
             We at 1 Hair Stop are thrilled to announce our biggest leap outside of e-commerce,
             with our first offline human hair extensions studio located in the heart of the city,
             Hyderabad. Come down for an in-person consult, try and buy natural hair extensions,
             wigs, and toppers that suit your hair needs.
           </p>
 
-          <button className="bg-[#C5B4A9] text-white px-8 py-3 uppercase text-sm tracking-wider hover:bg-[#b3a194] transition-colors">
+          <button className="bg-[#C5B4A9] text-white font-bold px-8 font-gill py-3 uppercase text-sm tracking-wider hover:bg-[#b3a194] transition-colors">
             Visit Us
           </button>
         </div>
@@ -49,7 +49,7 @@ export function StudioSection() {
           </div>
 
           {/* Image 3 - Bottom Left */}
-          <div className="absolute bottom-4 left-4 w-[35%] h-[30%] lg:bottom-36 lg:left-20 lg:w-[24%] lg:h-[30%] z--20">
+          <div className="absolute bottom-16 left-4 w-[35%] h-[30%] lg:bottom-36 lg:left-20 lg:w-[24%] lg:h-[30%] z--20">
             <img
               src="https://1hairstop.in/cdn/shop/files/studio-7.jpg"
               alt="Styling process"

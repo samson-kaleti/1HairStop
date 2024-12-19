@@ -43,13 +43,13 @@ export function FAQSection() {
           {faqs.map((faq, index) => (
             <div 
               key={index} 
-              className="border-b border-gray-200 overflow-hidden"
+              className="border-b border-gray-200 overflow-hidden "
             >
               <button
                 onClick={() => setOpenIndex(openIndex === index ? null : index)}
-                className="w-full py-4 flex justify-between items-center text-left hover:bg-gray-50 transition-colors duration-200 group"
+                className="w-full py-4 flex justify-between font-gill items-center text-left hover:bg-gray-50 transition-colors duration-200 group"
               >
-                <span className="text-lg font-serif group-hover:text-gray-900">{faq.question}</span>
+                <span className="text-lg  group-hover:text-gray-900 font-gill">{faq.question}</span>
                 <Plus
                   className={`w-5 h-5 transition-transform duration-300 ease-in-out group-hover:scale-110 ${
                     openIndex === index ? 'rotate-45' : ''
@@ -69,7 +69,7 @@ export function FAQSection() {
               >
                 <div 
                   ref={el => contentRefs.current[index] = el}
-                  className="pb-4 text-gray-600 font-serif"
+                  className="pb-4 text-gray-600 font-gill"
                 >
                   {faq.answer}
                 </div>

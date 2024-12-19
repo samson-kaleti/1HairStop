@@ -11,18 +11,18 @@ export const BrandStory = () => {
               />
             </div>
             <div className="space-y-6">
-              <h2 className="text-3xl md:text-4xl font-semibold">
+              <h2 className="text-3xl md:text-4xl font-semibold font-gill">
                 SISTERS BEHIND THE HAIR EXTENSION BRAND
               </h2>
-              <p className="text-gray-600">
+              <p className="text-gray-600 font-gill">
                 Elevating Beauty, Elevating Confidence: Our Mission at 1 Hair Stop.
               </p>
-              <p className="text-gray-600">
+              <p className="text-gray-600 font-gill">
                 Inspired by the vision of two trailblazing female entrepreneurs, Richa and Raina, 
                 1 Hair Stop was founded in 2019 with a mission to empower women through the transformative 
                 power of affordable human hair extensions.
               </p>
-              <button className="bg-[#d4beb0] text-white px-12 py-3 ">
+              <button className="bg-[#d4beb0] text-white px-12 py-3 font-gill ">
                 LEARN MORE
               </button>
             </div>

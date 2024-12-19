@@ -11,6 +11,7 @@ import { Footer } from './components/Footer';
 import WhatsAppIcon from './components/WhatsAppIcon';
 import RewardsButton from './components/RewardsButton';
 import { Transformations } from './components/sections/Transformations';
+import VerticalReviewsTag from './components/VerticalReviewsTag';
 
 function App() {
   return (
@@ -29,7 +30,8 @@ function App() {
    
       <Footer/> 
       <WhatsAppIcon/> 
-      <RewardsButton/>
+      <RewardsButton/> 
+      <VerticalReviewsTag/>
     </div>
   );
 }

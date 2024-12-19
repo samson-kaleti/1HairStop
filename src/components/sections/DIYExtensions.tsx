@@ -23,8 +23,8 @@ export const DIYExtensions = () => {
     <section className="py-16 px-4 md:px-8 bg-gray-50">
       <div className="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
-          <p className="text-gray-600 mb-2">BE YOUR OWN HAIR STYLIST</p>
-          <h2 className="text-3xl md:text-4xl font-semibold">
+          <p className="text-gray-600 mb-2 font-gill">BE YOUR OWN HAIR STYLIST</p>
+          <h2 className="text-3xl md:text-4xl font-semibold font-gill">
             DIY HAIR EXTENSIONS FOR ALL
           </h2>
         </div>
@@ -34,7 +34,7 @@ export const DIYExtensions = () => {
             items={categories.map((category, index) => (
               <div
                 key={index}
-                className="relative group cursor-pointer overflow-hidden rounded-lg"
+                className="relative group cursor-pointer overflow-hidden rounded-lg font-gill"
               >
                 {/* Image with Black Shade Overlay */}
                 <img
@@ -58,7 +58,7 @@ export const DIYExtensions = () => {
             interval={5000}
           />
         ) : (
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 font-gill ">
             {categories.map((category, index) => (
               <div
                 key={index}
@@ -68,7 +68,7 @@ export const DIYExtensions = () => {
                 <img
                   src={category.image}
                   alt={category.title}
-                  className="w-full h-80 object-cover transition-transform duration-500 group-hover:scale-105"
+                  className="w-full h-90 object-cover transition-transform duration-500 group-hover:scale-105"
                 />
                 <div className="absolute inset-0 bg-black opacity-0 transition-opacity duration-500 group-hover:opacity-40"></div>
 

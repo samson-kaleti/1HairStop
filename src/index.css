@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
-@tailwind utilities;
+@tailwind utilities; 
+
+@font-face {
+    font-family: 'Gill Sans Nova';
+    src: url('/fonts/gillsansnova_book.ttf') format('truetype'),
+         url('/fonts/gillsansnova_book.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }

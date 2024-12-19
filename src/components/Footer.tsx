@@ -12,7 +12,7 @@ export const Footer = () => {
     };
   
     return (
-      <footer className="bg-[#f8f5f2] pt-16 pb-8 px-4 md:px-8">
+      <footer className="bg-[#f8f5f2] pt-16 pb-8 px-4 md:px-8 font-gill">
         <div className="max-w-8xl mx-auto">
           {/* Main Footer Content */}
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-12">
@@ -99,7 +99,7 @@ export const Footer = () => {
               </div>
               <div className="flex items-center space-x-4">
                 <button className="flex items-center space-x-2 px-4 py-2 border border-gray-300 rounded">
-                  <img src="/api/placeholder/20/20" alt="India flag" className="w-5 h-5" />
+                  <img src="https://flagcdn.com/w20/in.png" alt="India flag" className="w-5 h-5" />
                   <span>India</span>
                   <ChevronDown size={16} />
                 </button>

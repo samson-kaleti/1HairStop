@@ -33,7 +33,7 @@ export function ProductCard({
       <div className="relative aspect-square overflow-hidden rounded-lg bg-gray-100 cursor-pointer">
         {tag && (
           <div className="absolute top-2 left-2 z-10">
-            <span className="bg-red-700 text-white px-3 py-1 text-xs font-medium rounded">
+            <span className="bg-red-700 text-white px-3 py-1 text-xs font-medium rounded font-gill">
               {tag}
             </span>
           </div>
@@ -43,21 +43,21 @@ export function ProductCard({
         <img
           src={image}
           alt={name}
-          className="h-full w-full object-cover object-center transition-opacity duration-300 group-hover:opacity-0"
+          className="h-90 w-full object-cover object-center transition-opacity duration-300 group-hover:opacity-0"
         />
 
         {/* Hover Image */}
         <img
           src={hoverImage}
           alt={name}
-          className="h-full w-full object-cover object-center absolute top-0 left-0 opacity-0 transition-opacity duration-300 group-hover:opacity-100"
+          className="h-90 w-full object-cover object-center absolute top-0 left-0 opacity-0 transition-opacity duration-300 group-hover:opacity-100"
         />
 
         {/* Hover Button */}
         <div
-          className="absolute bottom-0 left-0 right-0 opacity-0 group-hover:opacity-100 transition-all duration-300 transform translate-y-4 group-hover:translate-y-0"
+          className="absolute bottom-0 left-0 right-0 font-gill opacity-0 group-hover:opacity-100 transition-all duration-300 transform translate-y-4 group-hover:translate-y-0"
         >
-          <button className="w-full bg-gray-900 text-white py-2 text-sm font-medium">
+          <button className="w-full bg-gray-900 text-white py-2 font-gill text-sm font-medium">
             {hoverButtonText}
           </button>
         </div>
@@ -65,7 +65,7 @@ export function ProductCard({
         {/* Sold Out Overlay */}
         {soldOut && (
           <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
-            <span className="bg-white text-gray-900 px-6 py-2 rounded-md font-medium">
+            <span className="bg-white text-gray-900 px-6 py-2 rounded-md font-medium font-gill">
               SOLD OUT
             </span>
           </div>
@@ -74,7 +74,7 @@ export function ProductCard({
 
       {/* Product Details */}
       <div className="mt-4 space-y-2">
-        <h3 className="text-sm font-medium text-gray-900">{name}</h3>
+        <h3 className="text-sm font-medium font-gill text-gray-900">{name}</h3>
         <div className="flex items-center">
           {[...Array(5)].map((_, i) => (
             <Star
@@ -84,9 +84,9 @@ export function ProductCard({
               }`}
             />
           ))}
-          <span className="ml-2 text-sm text-gray-500">({reviews})</span>
+          <span className="ml-2 text-sm text-gray-500 font-gill">({reviews})</span>
         </div>
-        <p className="text-sm font-medium text-gray-900">{price}</p>
+        <p className="text-sm font-medium text-gray-900 font-gill">{price}</p>
       </div>
     </div>
   );

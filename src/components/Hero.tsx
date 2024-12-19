@@ -17,13 +17,13 @@ export function Hero() {
       {/* Content - Positioned below image on mobile, overlay on desktop */}
       <div className="w-full bg-white md:absolute md:bottom-0 md:left-0 md:bg-transparent">
         <div className="container mx-auto px-4 py-8 md:py-12 text-center">
-          <div className="text-gray-800 md:text-white text-sm tracking-wider mb-4">
+          <div className="text-gray-800 md:text-white text-[12px] tracking-wider mb-4 font-gill">
             TRANSFORM WITH US
           </div>
-          <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-gray-900 md:text-white mb-6">
+          <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-gray-900 md:text-white mb-6 font-gill">
             HAIR THINNING SOLUTIONS
           </h1>
-          <button className="bg-[#c5b1a2] md:bg-white text-white md:text-gray-900 px-28 py-3 hover:bg-gray-800 md:hover:bg-gray-100 transition-colors">
+          <button className="bg-[#c5b1a2] md:bg-white font-gill text-sm text-white md:text-gray-900 px-28 py-3 hover:bg-gray-800 md:hover:bg-gray-100 transition-colors">
             SHOP NOW
           </button>
         </div>
